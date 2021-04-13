@@ -85,8 +85,8 @@ it('can add the star name and star symbol properly', async() => {
     let tokenName = await instance.name();
     let tokenSymbol = await instance.symbol();
     assert.equal(star1Name, star);
-    assert.equal("StarToken", tokenName);
-    assert.equal("ST", tokenSymbol);
+    assert.equal("GalaxyToken", tokenName);
+    assert.equal("GTX", tokenSymbol);
 
 });
 
